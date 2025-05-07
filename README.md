@@ -1,57 +1,12 @@
-# 🚀 Fake Product Review Detection System
+# React + Vite
 
-## 📌 Overview
-This project aims to classify online product reviews as **genuine or fake** using **Natural Language Processing (NLP)** and **Machine Learning (ML)** techniques. It utilizes text mining methods along with **Naïve Bayes** and **k-Nearest Neighbors (k-NN)** classifiers.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-## ✨ Features
-- ✅ **Preprocessing of text reviews** (removal of stopwords, punctuation, and tokenization)
-- ✅ **Feature extraction** using TF-IDF
-- ✅ **Classification models**: Naïve Bayes & k-NN
-- ✅ **Performance evaluation** with accuracy and classification report
-- ✅ **Deployment-ready**: Model saving & prediction
+Currently, two official plugins are available:
 
-## 🛠 Technologies Used
-- 🐍 Python
-- 🤖 Scikit-learn
-- 📚 NLTK
-- 📊 Pandas
-- 🔢 NumPy
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## 📂 Dataset
-The dataset consists of product reviews labeled as **genuine (0) or fake (1)**. You can use public datasets like:
-- 📦 [Amazon Reviews](https://www.kaggle.com/datasets)
-- 🏢 [Yelp Reviews](https://www.yelp.com/dataset)
+## Expanding the ESLint configuration
 
-## ⚙️ Installation
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/yourusername/Fake-Review-Detection.git
-   cd Fake-Review-Detection
-   ```
-2. Install dependencies:
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-## 🚀 Usage
-1. **Train the Model**
-   ```bash
-   python train.py
-   ```
-2. **Test on Sample Review**
-   ```bash
-   python predict.py "This product is amazing! Best purchase ever."
-   ```
-
-## 📁 Project Structure
-```
-Fake-Review-Detection/
-│── 📂 data/                # Dataset folder
-│── 📂 models/              # Saved models
-│── 📜 train.py             # Training script
-│── 🔍 predict.py           # Prediction script
-│── 📃 requirements.txt     # Required dependencies
-│── 📄 README.md            # Project documentation
-```
-
- 
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
